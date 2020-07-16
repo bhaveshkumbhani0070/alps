@@ -1,58 +1,44 @@
 {
-  "name": "vuexy-html-bootstrap-admin-template",
-  "version": "1.1.0",
-  "description": "Vuexy admin is super flexible, powerful, clean & modern responsive bootstrap 4 HTML admin template with unlimited possibilities.",
-  "author": "PIXINVENT",
-  "repository": {
-    "type": "git",
-    "url": "git@gitlab.com:pixinvent/vuesax-vuejs-admin-template.git"
-  },
-  "license": "Themeforest Standard Licenses",
+  "name": "alps",
+  "version": "0.1.0",
   "private": true,
-  "homepage": "https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/html/ltr/vertical-menu-template/",
-  "main": "gulpfile.js",
   "dependencies": {
-    "async": "^3.1.0",
-    "gulp-cli": "^2.2.0",
-    "gulp-w3c-html-validator": "^1.4.4",
-    "node-notifier": "^5.4.3",
-    "through2": "^3.0.1"
-  },
-  "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-clean": "^0.4.0",
-    "gulp-copy": "^4.0.1",
-    "gulp-csscomb": "^3.0.8",
-    "gulp-cssmin": "^0.2.0",
-    "gulp-html-beautify": "^1.0.1",
-    "gulp-multistream": "^0.1.2",
-    "gulp-plumber": "^1.1.0",
-    "gulp-pug": "^4.0.1",
-    "gulp-rename": "^1.2.2",
-    "gulp-replace": "^1.0.0",
-    "gulp-rtlcss": "^1.4.0",
-    "gulp-sass": "^4.0.2",
-    "gulp-uglify": "^3.0.0",
-    "gulp-watch": "^5.0.1",
-    "merge-stream": "^2.0.0",
-    "minimist": "^1.2.0",
-    "pug": "^2.0.4"
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "classnames": "^2.2.6",
+    "i18next": "^19.5.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-i18next": "^11.7.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "react-smooth-scrollbar": "^8.0.6",
+    "reactstrap": "^8.5.1",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.6"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "browserslist": [
-    "> 1%",
-    "ie >= 8",
-    "edge >= 15",
-    "ie_mob >= 10",
-    "ff >= 45",
-    "chrome >= 45",
-    "safari >= 7",
-    "opera >= 23",
-    "ios >= 7",
-    "android >= 4",
-    "bb >= 10"
-  ]
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
