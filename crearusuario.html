@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
     <meta name="description" content="Pasarela LPG">
     <meta name="keywords" content="Pasarela LPG">
-    <title>Usuarios | Pasarela LPG</title>
+    <title>Crear usuario | Pasarela LPG</title>
     <link rel="apple-touch-icon" href="app-assets/images/ico/apple-icon-120.png">
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
@@ -16,13 +16,10 @@
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/charts/apexcharts.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/pickers/pickadate/pickadate.css">
-    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/tables/datatable/datatables.min.css">
-
-
 
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/tether-theme-arrows.css">
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/tether.min.css">
+    <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/extensions/shepherd-theme-default.css">
     <!-- END: Vendor CSS-->
     <!-- BEGIN: Vendor CSS-->
     <link rel="stylesheet" type="text/css" href="app-assets/vendors/css/vendors.min.css">
@@ -49,9 +46,6 @@
 
     <!-- BEGIN: Custom CSS-->
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/circularcss/css/circle.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-
     <!-- END: Custom CSS-->
 
 </head>
@@ -149,10 +143,13 @@
                                         alt="avatar" height="40" width="40"></span>
                             </a>
                             <div class="dropdown-menu dropdown-menu-right">
-                                <a class="dropdown-item" href="editprofile.html"><i class="feather icon-user"></i> EditarPerfil</a>
-                                <a class="dropdown-item" href="usuarios.html"><i class="feather icon-mail"></i> Usuario</a>
+                                <a class="dropdown-item" href="editprofile.html"><i class="feather icon-user"></i>
+                                    EditarPerfil</a>
+                                <a class="dropdown-item" href="usuarios.html"><i class="feather icon-mail"></i>
+                                    Usuario</a>
                                 <a class="dropdown-item" href="#"><i class="feather icon-check-square"></i> Empresa</a>
-                                <a class="dropdown-item" href="#"><i class="feather icon-message-square"></i> Sucursales</a>
+                                <a class="dropdown-item" href="#"><i class="feather icon-message-square"></i>
+                                    Sucursales</a>
                                 <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i
                                         class="feather icon-power"></i> Cerrar sesion</a>
                             </div>
@@ -294,50 +291,49 @@
                     <li class=" nav-item"><a href="#"><i class="feather icon-settings"></i><span class="menu-title"
                             data-i18n="Email">Configura tu cuenta</span></a>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="fa fa-credit-card"></i><span class="menu-title"
-                            >Pagos</span></a>
+                    <li class=" nav-item"><a href="#"><i class="fa fa-credit-card"></i><span
+                            class="menu-title">Pagos</span></a>
                         <ul class="menu-content">
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Transacciones</span></a>
+                            <li><a href="transacciones.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Transacciones</span></a>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Suscripciones</span></a>
+                            <li><a href="suscripciones.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Suscripciones</span></a>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Reembolsos</span></a>
+                            <li><a href="reembolsos.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Reembolsos</span></a>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Abonos</span></a>
+                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item">Abonos</span></a>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Cobros</span></a>
+                            <li><a href="cobros1.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Cobros</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="feather icon-list"></i><span class="menu-title"
-                            >Facturacion</span></a>
+                    <li class=" nav-item"><a href="#"><i class="feather icon-list"></i><span
+                            class="menu-title">Facturacion</span></a>
                         <ul class="menu-content">
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Facturas</span></a>
+                            <li><a href="factura.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Facturas</span></a>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Liquidacion de Transaccion</span></a>
+                            <li><a href="liquidacion.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Liquidacion de Transaccion</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="fa fa-cogs"></i><span class="menu-title"
-                            >Configuracion</span></a>
+                    <li class=" nav-item"><a href="#"><i class="fa fa-cogs"></i><span
+                            class="menu-title">Configuracion</span></a>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="feather icon-code"></i><span class="menu-title"
-                            >Desarrolladores</span></a>
+                    <li class=" nav-item"><a href="#"><i class="feather icon-code"></i><span
+                            class="menu-title">Desarrolladores</span></a>
                         <ul class="menu-content">
-                            <li><a href="documentacion.html"><i class="feather icon-circle"></i><span class="menu-item"
-                                    >Documentation</span></a>
+                            <li><a href="documentacion.html"><i class="feather icon-circle"></i><span
+                                    class="menu-item">Documentation</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="fa fa-key"></i><span class="menu-title"
-                            >Llaves de prueba</span></a>
+                    <li class=" nav-item"><a href="#"><i class="fa fa-key"></i><span class="menu-title">Llaves de
+                            prueba</span></a>
                     </li>
                     <li class=" nav-item"><a href="#"><i class="fa fa-credit-card"></i><span class="menu-title"
                         >Estado</span></a>
@@ -364,213 +360,110 @@
                 <div class="row mb-0">
                     <div class="col-lg-12 col-md-12 col-12">
                         <div class="card">
-                            <div class="card-header d-flex justify-content-between align-items-end">
-                                <div class="col-lg-12 col-md-12 col-12">
-                                    <div class="row mb-0">
-                                        <div class="col-md-6">
-                                            <h2 class="mb-0">Usuarios
-                                                </b>
-                                            </h2>
-                                        </div>
-                                        <div class="col-md-3"></div>
-                                        <div class="col-md-3">
-
-                                            <fieldset class="form-group position-relative has-icon-left ">
-                                                <input type='text' class="form-control pickadate irounded h-card2" placeholder="Desde" />
-                                                <div class="form-control-position">
-                                                    <i class="feather icon-calendar text-primary"></i>
-                                                </div>
-                                            </fieldset>
-
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="card-content">
-                                <div class="card-body pt-0">
-                                    <hr class="m-0">
-                                    <div class="row mb-0">
-                                        <div class="col-lg-12 col-md-12 col-12">
-                                            <div class="card mb-0">
-                                                <div class="card-content  mt-1">
-                                                    <div class="card-body mb-0">
-                                                        <div class="col-lg-12 col-md-12 col-12">
-                                                            <div class="row">
-                                                                <div class="col-lg-3 col-md-6 col-sm-12 pl-0 pr-0 text-center mb-1">
-                                                                    <div class="btn-group btn-group-justified">
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary c-pad h-card2 bl">Fecha registro</button>
-                                                                        </div>
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
-                                                                        </button>
-                                                                            <div class="dropdown-menu">
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                            </div>
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-12 col-pad">
+
+                                        </div>
+                                        <div class="col-lg-6 col-md-6 col-sm-12 col-pad">
+                                            <div class="card">
+                                                <div class="card-title">
+                                                    <h4 class="m-1">Usuarios | <b class="color1"> Crear usuario
+                                                        </b></h4>
+                                                </div>
+                                                <div class="card-content">
+                                                    <div class="card-body border border-muted border-2 rounded">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <label for="plan">Nombre </label>
+                                                                <input type="text" class="form-control input rounded-0" id="plan" aria-describedby="Identificador de plan" placeholder="Identificador de plan">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="suscripción">Correo electrónico</label>
+                                                                <input type="text" class="form-control input rounded-0" id="suscripción" placeholder="Nombre del plan">
+                                                            </div>
+
+                                                            <div class="form-group">
+                                                                <label for="Contraseña">Contraseña</label>
+                                                                <div class="col-lg-12 col-md-12 col-12">
+                                                                    <div class="row">
+                                                                        <div class="input-group">
+                                                                            <input type="password" class="form-control input rounded-0" placeholder="">
+                                                                            <span class="input-group-btn">
+                                                                            <button class="btn btn-default reveal p-0"
+                                                                                type="button"><i
+                                                                                    class="fa fa-eye"></i></button>
+                                                                        </span>
                                                                         </div>
                                                                     </div>
-
-                                                                </div>
-                                                                <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-1">
-                                                                    <div class="btn-group btn-group-justified">
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary c-pad h-card2 bl">Email</button>
-                                                                        </div>
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
-                                                                        </button>
-                                                                            <div class="dropdown-menu">
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="col-lg-3 col-md-6 col-sm-12 text-center mb-1">
-                                                                    <div class="btn-group btn-group-justified">
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary c-pad h-card2 bl">Rol</button>
-                                                                        </div>
-                                                                        <div class="btn-group">
-                                                                            <button type="button" class="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
-                                                                        </button>
-                                                                            <div class="dropdown-menu">
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                                <a class="dropdown-item" href="#">Fecha registro</a>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-
-                                                                </div>
-                                                                <div class="col-lg-3 col-md-6 col-sm-12 text-center">
-
                                                                 </div>
                                                             </div>
-                                                        </div>
-                                                        <div class="table-responsive">
-                                                            <table class="table zero-configuration border border-muted rounded">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th>Fecha registro</th>
-                                                                        <th>Nombre</th>
-                                                                        <th>Apellido</th>
-                                                                        <th>Email</th>
-                                                                        <th>Rol</th>
-                                                                        <th>Activo</th>
-                                                                        <th>Acción</th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>22-08-2019</td>
-                                                                        <td>Daniela</td>
-                                                                        <td>Diaz</td>
-                                                                        <td>daniela@ejemplo.com</td>
-                                                                        <td>Administrador </td>
-                                                                        <td>
-                                                                            <fieldset class="checkbox">
-                                                                                <div class="vs-checkbox-con vs-checkbox-primary">
-                                                                                    <input type="checkbox">
-                                                                                    <span class="vs-checkbox">
-                                                                                        <span class="vs-checkbox--check">
-                                                                                            <i class="vs-icon feather icon-check"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </td>
-                                                                        <td><a href=""> Ver Editar </a></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22-08-2019</td>
-                                                                        <td>Daniela</td>
-                                                                        <td>Diaz</td>
-                                                                        <td>daniela@ejemplo.com</td>
-                                                                        <td>Administrador </td>
-                                                                        <td>
-                                                                            <fieldset class="checkbox">
-                                                                                <div class="vs-checkbox-con vs-checkbox-primary">
-                                                                                    <input type="checkbox">
-                                                                                    <span class="vs-checkbox">
-                                                                                        <span class="vs-checkbox--check">
-                                                                                            <i class="vs-icon feather icon-check"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </td>
-                                                                        <td><a href=""> Ver Editar </a></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22-08-2019</td>
-                                                                        <td>Daniela</td>
-                                                                        <td>Diaz</td>
-                                                                        <td>daniela@ejemplo.com</td>
-                                                                        <td>Administrador </td>
-                                                                        <td>
-                                                                            <fieldset class="checkbox">
-                                                                                <div class="vs-checkbox-con vs-checkbox-primary">
-                                                                                    <input type="checkbox">
-                                                                                    <span class="vs-checkbox">
-                                                                                        <span class="vs-checkbox--check">
-                                                                                            <i class="vs-icon feather icon-check"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </td>
-                                                                        <td><a href=""> Ver Editar </a></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22-08-2019</td>
-                                                                        <td>Daniela</td>
-                                                                        <td>Diaz</td>
-                                                                        <td>daniela@ejemplo.com</td>
-                                                                        <td>Administrador </td>
-                                                                        <td>
-                                                                            <fieldset class="checkbox">
-                                                                                <div class="vs-checkbox-con vs-checkbox-primary">
-                                                                                    <input type="checkbox">
-                                                                                    <span class="vs-checkbox">
-                                                                                        <span class="vs-checkbox--check">
-                                                                                            <i class="vs-icon feather icon-check"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </td>
-                                                                        <td><a href=""> Ver Editar </a></td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                        <td>22-08-2019</td>
-                                                                        <td>Daniela</td>
-                                                                        <td>Diaz</td>
-                                                                        <td>daniela@ejemplo.com</td>
-                                                                        <td>Administrador </td>
-                                                                        <td>
-                                                                            <fieldset class="checkbox">
-                                                                                <div class="vs-checkbox-con vs-checkbox-primary">
-                                                                                    <input type="checkbox" class="irounded">
-                                                                                    <span class="vs-checkbox">
-                                                                                        <span class="vs-checkbox--check">
-                                                                                            <i class="vs-icon feather icon-check"></i>
-                                                                                        </span>
-                                                                                    </span>
-                                                                                </div>
-                                                                            </fieldset>
-                                                                        </td>
-                                                                        <td><a href=""> Ver Editar </a></td>
-                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                        </div>
-                                                        <a href="crearusuario.html" class="btn btn-outline-primary h-card4 irounded">Crear Usuarios</a>
+                                                            <div class="form-group">
+                                                                <label for="Repetir contraseña">Repetir contraseña
+                                                                </label>
+                                                                <div class="col-lg-12 col-md-12 col-12">
+                                                                    <div class="row">
+                                                                        <div class="input-group">
+                                                                            <input type="password" class="form-control input rounded-0" placeholder="">
+                                                                            <span class="input-group-btn">
+                                                                            <button class="btn btn-default reveal p-0"
+                                                                                type="button"><i
+                                                                                    class="fa fa-eye"></i></button>
+                                                                        </span>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="Repetir contraseña">Rol</label>
+                                                                <select class="form-control input rounded-0" id="basicSelect">
+                                                                    <option>Visualizador</option>
+                                                                    <option>Visualizador</option>
+                                                                    <option>Visualizador</option>
 
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="Repetir contraseña">Empresa</label>
+                                                                <select class="form-control input rounded-0" id="basicSelect">
+                                                                    <option>Empresa 1</option>
+                                                                    <option>Empresa 1</option>
+                                                                    <option>Empresa 1</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="Repetir contraseña">Sucursal</label>
+                                                                <select class="form-control input rounded-0" id="basicSelect">
+                                                                    <option>La Dehesa</option>
+                                                                    <option>La Dehesa</option>
+                                                                    <option>La Dehesa</option>
+                                                                </select>
+                                                            </div>
+                                                            <fieldset class="checkbox">
+                                                                <div class="vs-checkbox-con vs-checkbox-primary">
+                                                                    <input type="checkbox">
+                                                                    <span class="vs-checkbox">
+                                                                        <span class="vs-checkbox--check">
+                                                                            <i class="vs-icon feather icon-check"></i>
+                                                                        </span>
+                                                                    </span>
+                                                                    <span class=""><small> Activo </small></span>
+                                                                </div>
+                                                            </fieldset>
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col text-center">
+                                                                        <button class="btn btn-primary irounded">GUARDAR</button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </form>
                                                     </div>
                                                 </div>
                                             </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-12 col-pad">
                                         </div>
                                     </div>
                                 </div>
@@ -581,7 +474,6 @@
             </div>
         </div>
     </div>
-    </div>
     <!-- END: Content-->
 
     <div class="sidenav-overlay"></div>
@@ -590,7 +482,7 @@
     <!-- BEGIN: Footer-->
     <footer class="footer footer-static bg-white">
         <p class="clearfix blue-grey lighten-2 mb-0"><span class="float-md-left d-block d-md-inline-block mt-25">
-            <img src="app-assets/images/logo/logo.svg" class="img-fluid" alt="" width="40%">
+                <img src="app-assets/images/logo/logo.svg" class="img-fluid" alt="" width="40%">
             </span><span class="float-md-right d-none d-md-block"><i class="feather icon-twitter text-primary"></i> <i
                     class="feather icon-facebook text-primary"></i> <i
                     class="feather icon-instagram text-primary"></i></span>
@@ -617,20 +509,6 @@
     <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
     <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
     <script src="app-assets/vendors/js/extensions/tether.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/pdfmake.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/vfs_fonts.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/datatables.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/datatables.buttons.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/buttons.html5.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/buttons.print.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/buttons.bootstrap.min.js"></script>
-    <script src="app-assets/vendors/js/tables/datatable/datatables.bootstrap4.min.js"></script>
-
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.date.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/picker.time.js"></script>
-    <script src="app-assets/vendors/js/pickers/pickadate/legacy.js"></script>
-
     <!-- END: Page Vendor JS-->
 
     <!-- BEGIN: Theme JS-->
@@ -639,15 +517,11 @@
     <script src="app-assets/js/scripts/components.js"></script>
     <!-- END: Theme JS-->
 
-
     <!-- BEGIN: Page JS-->
     <script src="app-assets/js/scripts/charts/chart-apex.js"></script>
     <script src="app-assets/js/scripts/extensions/fullcalendar.js"></script>
     <script src="app-assets/js/scripts/pages/dashboard-analytics.js"></script>
     <script src="app-assets/js/scripts/pages/dashboard-ecommerce.js"></script>
-    <script src="app-assets/js/scripts/pickers/dateTime/pick-a-datetime.js"></script>
-    <script src="app-assets/js/scripts/popover/popover.js"></script>
-    <script src="app-assets/js/scripts/datatables/datatable.js"></script>
 
 
     <!-- END: Page JS-->
