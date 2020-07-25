@@ -60,8 +60,8 @@ class Transacciones extends React.Component {
                                                                                     <button type="button" className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
                                                                                     </div>
                                                                                 </div>
 
@@ -72,8 +72,8 @@ class Transacciones extends React.Component {
                                                                                     <button type="button" className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
                                                                                     </div>
                                                                                 </div>
 
@@ -84,8 +84,8 @@ class Transacciones extends React.Component {
                                                                                     <button type="button" className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
                                                                                     </div>
                                                                                 </div>
 
@@ -96,8 +96,8 @@ class Transacciones extends React.Component {
                                                                                     <button type="button" className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split c-pad h-card2 br" data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
-                                                                                        <a className="dropdown-item" href="#">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
+                                                                                        <a className="dropdown-item" href="/">Fecha registro</a>
                                                                                     </div>
                                                                                 </div>
 

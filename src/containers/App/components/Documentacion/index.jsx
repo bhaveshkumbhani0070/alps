@@ -50,17 +50,17 @@ class Documentacion extends React.Component {
                                                                 </div>
                                                                 <div className="col-lg-3 col-md-3 col-sm-12 col-pad">
                                                                     <a className="btn  btn-primary w-100 font-weight-bold"
-                                                                        href="#" role="button">JS
+                                                                        href="/" role="button">JS
                                                                     </a>
                                                                 </div>
                                                                 <div className="col-lg-3 col-md-3 col-sm-12 col-pad">
                                                                     <a className="btn  btn-primary w-100 font-weight-bold"
-                                                                        href="#" role="button">Java
+                                                                        href="/" role="button">Java
                                                                     </a>
                                                                 </div>
                                                                 <div className="col-lg-3 col-md-3 col-sm-12 col-pad">
                                                                     <a className="btn  btn-primary w-100 font-weight-bold"
-                                                                        href="#" role="button">RUBY
+                                                                        href="/" role="button">RUBY
                                                                     </a>
                                                                 </div>
                                                             </div>
@@ -79,19 +79,19 @@ class Documentacion extends React.Component {
                                                                 <div className="row">
                                                                     <div className="col-lg-2 col-md-2 col-sm-12 col-pad"></div>
                                                                     <div className="col-lg-2 col-md-2 col-sm-12 col-pad">
-                                                                        <a className="btn  btn-primary w-100" href="#"
+                                                                        <a className="btn  btn-primary w-100" href="/"
                                                                             role="button">Prestshop</a>
                                                                     </div>
                                                                     <div className="col-lg-1 col-md-1 col-sm-12 col-pad"></div>
                                                                     <div className="col-lg-2 col-md-2 col-sm-12 col-pad">
                                                                         <a className="btn  btn-primary w-100 font-weight-bold"
-                                                                            href="#" role="button">WooCom
+                                                                            href="/" role="button">WooCom
                                                                         </a>
                                                                     </div>
                                                                     <div className="col-lg-1 col-md-1 col-sm-12 col-pad"></div>
                                                                     <div className="col-lg-2 col-md-2 col-sm-12 col-pad">
                                                                         <a className="btn  btn-primary w-100 font-weight-bold"
-                                                                            href="#" role="button">Magento
+                                                                            href="/" role="button">Magento
                                                                         </a>
                                                                     </div>
                                                                     <div className="col-lg-2 col-md-2 col-sm-12 col-pad"></div>

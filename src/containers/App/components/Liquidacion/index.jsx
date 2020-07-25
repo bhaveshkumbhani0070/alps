@@ -133,7 +133,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>22-08-2019</td>
@@ -142,7 +142,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>22-08-2019</td>
@@ -151,7 +151,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>22-08-2019</td>
@@ -160,7 +160,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>22-08-2019</td>
@@ -169,7 +169,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                             <tr>
                                                                                 <td>22-08-2019</td>
@@ -178,7 +178,7 @@ class Liquidacion extends React.Component {
                                                                                 <td>$2.932</td>
                                                                                 <td>$920.1</td>
                                                                                 <td>125.000</td>
-                                                                                <td><a href="">Ver PDF Excel</a> </td>
+                                                                                <td><a href="/">Ver PDF Excel</a> </td>
                                                                             </tr>
                                                                         </tbody>
                                                                     </table>

@@ -70,9 +70,9 @@ class Estado extends React.Component {
                                                                                         data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">ID
+                                                                                        <a className="dropdown-item" href="/">ID
                                                                                             Transacción</a>
-                                                                                        <a className="dropdown-item" href="#">ID
+                                                                                        <a className="dropdown-item" href="/">ID
                                                                                             Transacción</a>
                                                                                     </div>
                                                                                 </div>
@@ -91,9 +91,9 @@ class Estado extends React.Component {
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
                                                                                         <a className="dropdown-item"
-                                                                                            href="#">Usuario</a>
+                                                                                            href="/">Usuario</a>
                                                                                         <a className="dropdown-item"
-                                                                                            href="#">Usuario</a>
+                                                                                            href="/">Usuario</a>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -111,9 +111,9 @@ class Estado extends React.Component {
                                                                                         data-toggle="dropdown">
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
-                                                                                        <a className="dropdown-item" href="#">Tipo
+                                                                                        <a className="dropdown-item" href="/">Tipo
                                                                                             de tarjeta</a>
-                                                                                        <a className="dropdown-item" href="#">Tipo
+                                                                                        <a className="dropdown-item" href="/">Tipo
                                                                                             de tarjeta</a>
                                                                                     </div>
                                                                                 </div>
@@ -132,9 +132,9 @@ class Estado extends React.Component {
                                                                                     </button>
                                                                                     <div className="dropdown-menu">
                                                                                         <a className="dropdown-item"
-                                                                                            href="#">Estado</a>
+                                                                                            href="/">Estado</a>
                                                                                         <a className="dropdown-item"
-                                                                                            href="#">Estado</a>
+                                                                                            href="/">Estado</a>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -165,7 +165,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>
@@ -178,7 +178,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>
@@ -191,7 +191,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>
@@ -204,7 +204,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>
@@ -217,7 +217,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>
@@ -230,7 +230,7 @@ class Estado extends React.Component {
                                                                                 </td>
                                                                                 <td>Aceptado
                                                                                 </td>
-                                                                                <td><a href=""> Ver detalles <i
+                                                                                <td><a href="/"> Ver detalles <i
                                                                                             className="feather icon-eye"></i></a>
                                                                                 </td>
                                                                             </tr>

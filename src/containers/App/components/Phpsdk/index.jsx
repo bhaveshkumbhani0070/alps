@@ -73,8 +73,8 @@ class Phpsdk extends React.Component {
                                                                 <h6>
                                                                     Instalación
                                                                 </h6>
-                                                                <p><small>Recomendamos instalar ocupando <span><a href="#">
-                                                                                Composer </a></span></small></p>
+                                                                <p><small>Recomendamos instalar ocupando <span>
+                                                                    <a href="/">Composer </a></span></small></p>
                                                                 <div className="row">
                                                                     <div className="col-md-1 pr-0">
                                                                     </div>

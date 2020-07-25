@@ -40,7 +40,7 @@ const Sidebar = ({
                     <li className=" nav-item"><Link to="/dashboard"><i className="feather icon-settings"></i><span className="menu-title"
                             data-i18n="Email">Configura tu cuenta</span></Link>
                     </li>
-                    <li class=" nav-item"><a href="#"><i class="fa fa-credit-card"></i><span
+                    <li class=" nav-item"><a href="/"><i class="fa fa-credit-card"></i><span
                             class="menu-title">Pagos</span></a>
                         <ul class="menu-content">
                             <li><Link to="/transacciones"><i class="feather icon-circle"></i><span
@@ -52,7 +52,7 @@ const Sidebar = ({
                             <li><Link to="/reembolsos"><i class="feather icon-circle"></i><span
                                         class="menu-item">Reembolsos</span></Link>
                             </li>
-                            <li><a href="#"><i class="feather icon-circle"></i><span class="menu-item">Abonos</span></a>
+                            <li><a href="/"><i class="feather icon-circle"></i><span class="menu-item">Abonos</span></a>
                             </li>
                             <li><Link to="/cobros"><i class="feather icon-circle"></i><span
                                         class="menu-item">Cobros</span></Link>

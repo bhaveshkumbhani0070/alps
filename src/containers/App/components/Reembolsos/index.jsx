@@ -103,7 +103,7 @@ class Reembolsos extends React.Component {
                                                                 <td>DÉBITO</td>
                                                                 <td>$11.980</td>
                                                                 <td>Aceptado</td>
-                                                                <td><a href="">Ver Reembolsar</a> </td>
+                                                                <td><a href="/">Ver Reembolsar</a> </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>02941924</td>
@@ -112,7 +112,7 @@ class Reembolsos extends React.Component {
                                                                 <td>DÉBITO</td>
                                                                 <td>$11.980</td>
                                                                 <td>Aceptado</td>
-                                                                <td><a href="">Ver Reembolsar</a> </td>
+                                                                <td><a href="/">Ver Reembolsar</a> </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>02941924</td>
@@ -121,7 +121,7 @@ class Reembolsos extends React.Component {
                                                                 <td>DÉBITO</td>
                                                                 <td>$11.980</td>
                                                                 <td>Aceptado</td>
-                                                                <td><a href="">Ver Reembolsar</a> </td>
+                                                                <td><a href="/">Ver Reembolsar</a> </td>
                                                             </tr>
                                                             <tr>
                                                                 <td>02941924</td>
@@ -130,7 +130,7 @@ class Reembolsos extends React.Component {
                                                                 <td>DÉBITO</td>
                                                                 <td>$11.980</td>
                                                                 <td>Aceptado</td>
-                                                                <td><a href="">Ver Reembolsar</a> </td>
+                                                                <td><a href="/">Ver Reembolsar</a> </td>
                                                             </tr>
                                                         </tbody>
 
