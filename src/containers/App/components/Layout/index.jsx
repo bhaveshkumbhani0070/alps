@@ -20,7 +20,7 @@ import {
   CustomizerProps, SidebarProps, ThemeProps, RTLProps, UserProps,
 } from '../../../../shared/prop-types/ReducerProps';
 
-let notification = null;
+// let notification = null;
 
 
 class Layout extends Component {
@@ -39,7 +39,7 @@ class Layout extends Component {
   }
 
   componentWillUnmount() {
-    notification.destroy();
+    // notification.destroy();
   }
 
   changeSidebarVisibility = () => {
