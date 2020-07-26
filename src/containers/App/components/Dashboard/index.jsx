@@ -1,6 +1,7 @@
 import React from 'react';
 // import { withTranslation } from 'react-i18next';
 import { withRouter } from 'react-router';
+import { _t, setLanguage } from '../../../../shared/translation';
 
 class Dashboard extends React.Component {
     constructor(props) {
@@ -13,6 +14,12 @@ class Dashboard extends React.Component {
 
     }
     render() {
+        let lang = window.localStorage.getItem("lang");
+        if (lang === undefined || lang === null || lang === "null") {
+            lang = "en";
+        }
+        console.log('lang',lang);
+        setLanguage(lang);
         // const {  } = this.state;
         // const {  } = this.props;
         return (
@@ -29,7 +36,7 @@ class Dashboard extends React.Component {
                                         <div className="col-lg-12 col-md-12 col-12">
                                             <div className="row">
                                                 <div className="col-lg-2 col-md-6 col-sm-12">
-                                                    <h4 className="mb-0"><b> Pagos </b></h4>
+                                                    <h4 className="mb-0"><b> {_t("Payments")} </b></h4>
                                                 </div>
                                                 <div className="col-lg-4 col-md-6 col-sm-12">
                                                     <div className="row">
