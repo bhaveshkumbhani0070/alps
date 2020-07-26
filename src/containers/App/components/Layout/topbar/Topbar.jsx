@@ -71,8 +71,8 @@ class Topbar extends React.Component {
                       </div>
                     </Link>
                     <div className="dropdown-menu dropdown-menu-right">
-                      <span className="dropdown-item" onClick={this.onChangeFunc.bind(this, "en")}><i className="feather icon-user"></i>{_t("English")}</span>
-                      <span className="dropdown-item" onClick={this.onChangeFunc.bind(this, "sp")}><i className="feather icon-mail"></i>{_t("Spanish")}</span>
+                      <span className="dropdown-item" onClick={this.onChangeFunc.bind(this, "en")}>{_t("English")}</span>
+                      <span className="dropdown-item" onClick={this.onChangeFunc.bind(this, "sp")}>{_t("Spanish")}</span>
                     </div>
                   </li>
                   <li className="dropdown dropdown-notification nav-item">

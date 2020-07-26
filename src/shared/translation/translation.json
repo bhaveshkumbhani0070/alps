@@ -1,6 +1,106 @@
 {
+  "Filter by":{
+    "en":"Filter by",
+    "sp":"Filtra por"
+  },
+  "Start":{
+    "en":"Start",
+    "sp":"Inicio"
+  },
   "Payments":{
     "en":"Payments",
     "sp":"Pagos"
+  },
+  "Transactions":{
+    "en":"Transactions",
+    "sp":"Transacciones"
+  },
+  "Subscriptions":{
+    "en":"Subscriptions",
+    "sp":"Suscripciones"
+  },
+  "Refunds":{
+    "en":"Refunds",
+    "sp":"Reembolsos"
+  },
+  "Fertilizers":{
+    "en":"Fertilizers",
+    "sp":"Abonos"
+  },
+  "Collections":{
+    "en":"Collections",
+    "sp":"Cobros"
+  },
+  "Billing":{
+    "en":"Billing",
+    "sp":"Facturacion"
+  },
+  "Invoices":{
+    "en":"Invoices",
+    "sp":"Facturas"
+  },
+  "Transaction Settlement":{
+    "en":"Transaction Settlement",
+    "sp":"Liquidacion de Transaccion"
+  },
+  "Setting":{
+    "en":"Setting",
+    "sp":"Configuracion"
+  },
+  "Developers":{
+    "en":"Developers",
+    "sp":"Desarrolladores"
+  },
+  "Documentation":{
+    "en":"Documentation",
+    "sp":"Documentación"
+  },
+  "Test keys":{
+    "en":"Test keys",
+    "sp":"Llaves de prueba"
+  },
+  "Payment status":{
+    "en":"Payment status",
+    "sp":"Estado de Pago"
+  },
+  "Sales by commercial code":{
+    "en":"Sales by commercial code",
+    "sp":"Ventas por código de comercio"
+  },
+  "Calendar":{
+    "en":"Calendar",
+    "sp":"Calendario"
+  },
+  "Payment methods":{
+    "en":"Payment methods",
+    "sp":"Medios de Pago"
+  },
+  "Transaction Status":{
+    "en":"Transaction Status",
+    "sp":"Estado de Transacciones"
+  },
+  "Clients Activity":{
+    "en":"Clients Activity",
+    "sp":"Actividad Clientes"
+  },
+  "User":{
+    "en":"User",
+    "sp":"Usuario"
+  },
+  "Payment type":{
+    "en":"Payment type",
+    "sp":"Tipo de pago"
+  },
+  "Number of sales":{
+    "en":"Number of sales",
+    "sp":"Número de ventas"
+  },
+  "Total amount":{
+    "en":"Total amount",
+    "sp":"Monto total"
+  },
+  "see more":{
+    "en":"see more",
+    "sp":"Ver más"
   }
 }

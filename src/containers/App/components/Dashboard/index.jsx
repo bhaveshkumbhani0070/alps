@@ -18,7 +18,6 @@ class Dashboard extends React.Component {
         if (lang === undefined || lang === null || lang === "null") {
             lang = "en";
         }
-        console.log('lang',lang);
         setLanguage(lang);
         // const {  } = this.state;
         // const {  } = this.props;
@@ -41,7 +40,7 @@ class Dashboard extends React.Component {
                                                 <div className="col-lg-4 col-md-6 col-sm-12">
                                                     <div className="row">
                                                         <div className="col-md-4 col-12">
-                                                            <b>  Filtra por:</b>
+                                                            <b>{_t("Filter by")}:</b>
                                                         </div>
                                                         <div className="col-md-8 col-12">
                                                             <fieldset className="form-group position-relative has-icon-left">
@@ -168,7 +167,7 @@ class Dashboard extends React.Component {
                                                                 <div className="col-lg-7 col-md-7 col-sm-12 pl-0">
                                                                     <div className="card ">
                                                                         <div className="">
-                                                                            <h4 className="card-title font-weight-bold">Ventas por código de comercio <i className="fa fa-chevron-circle-right"></i></h4>
+                                                                            <h4 className="card-title font-weight-bold">{_t("Sales by commercial code")} <i className="fa fa-chevron-circle-right"></i></h4>
                                                                         </div>
                                                                         <div className="card-content border border-dark rounded mt-1">
                                                                             <div className="card-body">
@@ -216,7 +215,7 @@ class Dashboard extends React.Component {
                                                                 <div className="col-lg-5 col-md-5 col-sm-12 pl-0 pr-0">
                                                                     <div className="card">
                                                                         <div className="">
-                                                                            <h4 className="card-title font-weight-bold">Calendario
+                                                                            <h4 className="card-title font-weight-bold">{_t("Calendar")}
                                                                                             <i className="fa fa-chevron-circle-right"></i></h4>
                                                                         </div>
                                                                         <div className="card-content border border-dark rounded mt-1">
@@ -235,7 +234,7 @@ class Dashboard extends React.Component {
                                                 <div className="col-lg-6 col-md-6 col-sm-12">
                                                     <div className="card">
                                                         <div className="">
-                                                            <h4 className="card-title font-weight-bold">Medios de Pago</h4>
+                                                            <h4 className="card-title font-weight-bold">{_t("Payment methods")}</h4>
                                                         </div>
                                                         <div className="card-content border border-dark rounded mt-1">
                                                             <div className="card-body">
@@ -267,7 +266,7 @@ class Dashboard extends React.Component {
                                                                             <li className="ti">$000.00</li>
                                                                         </h3>
                                                                         <p className="card-text mb-0"><b> Crédito </b></p>
-                                                                        <button type="button" className="btn btn-outline-primary round h-card2">Ver más</button>
+                                                                        <button type="button" className="btn btn-outline-primary round h-card2">{_t("see more")}</button>
                                                                     </div>
                                                                 </div>
 
@@ -278,7 +277,7 @@ class Dashboard extends React.Component {
                                                 <div className="col-md-6">
                                                     <div className="card">
                                                         <div className="card-header">
-                                                            <h4 className="card-title font-weight-bold">Estado de Transacciones
+                                                            <h4 className="card-title font-weight-bold">{_t("Transaction Status")}
                                                                         </h4>
                                                         </div>
                                                         <div className="card-content border border-dark rounded mt-1">
@@ -319,7 +318,7 @@ class Dashboard extends React.Component {
                                                                             </div>
                                                                         </div>
                                                                         <p className="text-center">Aceptado</p>
-                                                                        <button type="button" className="btn btn-outline-primary round h-card2">Ver más</button>
+                                                                        <button type="button" className="btn btn-outline-primary round h-card2">{_t("see more")}</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -362,7 +361,7 @@ class Dashboard extends React.Component {
                                                                             <li className="ti">$ 000.00</li>
                                                                         </h3>
                                                                         <p className="card-text mb-0"><b> Crédito </b></p>
-                                                                        <button type="button" className="btn btn-outline-primary round h-card2">Ver más</button>
+                                                                        <button type="button" className="btn btn-outline-primary round h-card2">{_t("see more")}</button>
                                                                     </div>
                                                                 </div>
 
@@ -373,7 +372,7 @@ class Dashboard extends React.Component {
                                                 <div className="col-md-6">
                                                     <div className="cards">
                                                         <div className="card-header">
-                                                            <h4 className="card-title font-weight-bold">Estado de Transacciones
+                                                            <h4 className="card-title font-weight-bold">{_t("Transaction Status")}
                                                                         </h4>
                                                         </div>
                                                         <div className="card-content border border-dark rounded mt-1">
@@ -414,7 +413,7 @@ class Dashboard extends React.Component {
                                                                             </div>
                                                                         </div>
                                                                         <p className="text-center">Aceptado</p>
-                                                                        <button type="button" className="btn btn-outline-primary round h-card2">Ver más</button>
+                                                                        <button type="button" className="btn btn-outline-primary round h-card2">{_t("see more")}</button>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -426,17 +425,17 @@ class Dashboard extends React.Component {
                                                 <div className="col-12">
                                                     <div className="card">
                                                         <div className="">
-                                                            <h4 className="mb-0">Actividad Clientes</h4>
+                                                            <h4 className="mb-0">{_t("Clients Activity")}</h4>
                                                         </div>
                                                         <div className="card-content">
                                                             <div className="table-responsive mt-1">
                                                                 <table className="table table-hover-animation mb-0">
                                                                     <thead>
                                                                         <tr>
-                                                                            <th>Usuario</th>
-                                                                            <th>Tipo de pago</th>
-                                                                            <th>Número de ventas </th>
-                                                                            <th>Monto total</th>
+                                                                            <th>{_t("User")}</th>
+                                                                            <th>{_t("Payment type")}</th>
+                                                                            <th>{_t("Number of sales")}</th>
+                                                                            <th>{_t("Monto total")}</th>
                                                                             <th></th>
 
                                                                         </tr>
