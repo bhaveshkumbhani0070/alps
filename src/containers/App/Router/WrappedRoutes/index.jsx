@@ -48,17 +48,17 @@ function PrivateRoute({ component: Component, ...rest }) {
         <Route
             {...rest}
             render={props =>
-                localStorage.getItem('token') ? (<div>
+                // localStorage.getItem('token') ? (<div>
                            <Component {...props} />
-                    </div>
-                ) : (
-                    <Redirect
-                        to={{
-                            pathname: '/login',
-                            state: { from: props.location },
-                        }}
-                    />
-                )
+                    // </div>
+                // ) : (
+                //     <Redirect
+                //         to={{
+                //             pathname: '/login',
+                //             state: { from: props.location },
+                //         }}
+                //     />
+                // )
             }
         />
     );
