@@ -106,6 +106,14 @@ class Sidebar extends React.Component {
                                 </li>
                             </ul>
                         </li>
+                        <li className=" nav-item"><Link to="#"><i className="fa fa-credit-card"></i><span className="menu-title"
+                        >{_t("Payout")}</span></Link>
+                            <ul className="menu-content">
+                                <li><Link to="/payout"><i className="feather icon-circle"></i><span className="menu-item"
+                                >{_t("Payout")}</span></Link>
+                                </li>
+                            </ul>
+                        </li>
                     </li>
                 </ul>
             </div>

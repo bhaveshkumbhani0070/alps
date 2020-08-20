@@ -11,6 +11,7 @@ import Liquidacion from '../../components/Liquidacion';
 import Documentacion from '../../components/Documentacion';
 import Estado from '../../components/Estado';
 import Phpsdk from '../../components/Phpsdk';
+import Payout from '../../components/Payout';
 export default ()=>(
     <>
         <Layout />
@@ -24,6 +25,7 @@ export default ()=>(
             <PrivateRoute exact Route path="/documentacion" component={Documentacion} />
             <PrivateRoute exact Route path="/estado" component={Estado} />
             <PrivateRoute exact Route path="/phpsdk" component={Phpsdk} />
+            <PrivateRoute exact Route path="/payout" component={Payout} />
             
             
                       
